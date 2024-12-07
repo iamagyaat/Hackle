@@ -18,16 +18,16 @@ def rename_files_by_creation_date(directory):
             creation_time = os.path.getctime(file_path)
             creation_date = time.strftime('%Y%m%d', time.localtime(creation_time))
 
-            # Increment the count for this date
+            # Increment the count for this date 
             date_count[creation_date] += 1
 
             # Create new file name in the format YYYYMMDD-1/2/3...
             new_filename = f"{creation_date}-{date_count[creation_date]}{os.path.splitext(filename)[1]}"
 
-            # Create the new file path
+            # Create the new file path 
             new_file_path = os.path.join(directory, new_filename)
 
-            # Rename the file
+            # Rename the file 
             print(f"Renaming {file_path} to {new_file_path}")
             os.rename(file_path, new_file_path)
 

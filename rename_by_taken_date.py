@@ -19,7 +19,7 @@ def get_taken_date(image_path):
         for tag, value in exif_data.items():
             decoded = TAGS.get(tag, tag)
             if decoded == 'DateTimeOriginal':
-                return value  # Format: "YYYY:MM:DD HH:MM:SS"
+                return value  # Format: "YYYY:MM:DD HH:MM:SS" 
         
         return None
     except Exception as e:
