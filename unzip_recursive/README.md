@@ -18,7 +18,7 @@ It's a Python program that recursively extracts all .zip files inside a given di
 python unzip_recursive.py /path/to/directory
 ```
 
-What This Script Does
+## What This Script Does
 
 ✅ Recursively extracts all .zip files.
 ✅ Handles nested .zip files.
