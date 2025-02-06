@@ -21,8 +21,12 @@ python unzip_recursive.py /path/to/directory
 ## What This Script Does
 
 ✅ Recursively extracts all .zip files.
+
 ✅ Handles nested .zip files.
+
 ✅ Deletes all .zip files after extraction.
+
 ✅ Keeps only folders and extracted files.
+
 
 Let me know if you need any modifications! 🚀
