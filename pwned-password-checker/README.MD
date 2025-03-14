@@ -1,4 +1,4 @@
-How It Works
+# How It Works
 Example Run:
 
 Enter the directory containing breached password files: /path/to/passwords
@@ -13,10 +13,11 @@ Enter a password to check (or type 'exit' to quit): exit
 Exiting the program.
 
 
-How to Run the Script
 
-    Save the script as check_password.py.
-    Run it from the terminal:
+# How to Run the Script
+
+Save the script as check_password.py.
+Run it from the terminal:
 
     python check_password.py
 
