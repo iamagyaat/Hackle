@@ -2,6 +2,11 @@
 
 import os
 
+"""
+Before run this script, you need to download the pwned password files from the following link:
+https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader
+"""
+
 def check_password_in_file(file_path, password):
     """
     Check if the password is in the specified file.
