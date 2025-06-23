@@ -5,14 +5,14 @@ It's a Python program that recursively extracts all .zip files inside a given di
 
 ## Steps:
 
-    1. Extract all .zip files inside the given directory.
-    2. Recursively check for nested .zip files and extract them.
-    3. Continue the process until all .zip files are extracted.
-    4. Delete all .zip files after extraction.
+1. Extract all .zip files inside the given directory.
+2. Recursively check for nested .zip files and extract them.
+3. Continue the process until all .zip files are extracted.
+4. Delete all .zip files after extraction.
 
 ## Command-line Usage:
-    1. Save the script as unzip_recursive.py.
-    2. Run it in the terminal with:
+1. Save the script as unzip_recursive.py.
+2. Run the prohram in the terminal using following command.
 
 ```bash
 python unzip_recursive.py /path/to/directory
